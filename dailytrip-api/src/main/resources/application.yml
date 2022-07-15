@@ -1,0 +1,19 @@
+spring.application.name: daily-trip-api
+spring.profiles.active: local
+
+spring:
+  config:
+    import:
+      - logging.yml
+
+---
+spring.config.activate.on-profile: local
+
+
+---
+spring.config.activate.on-profile: staging
+
+
+---
+spring.config.activate.on-profile: live
+

@@ -1,4 +1,4 @@
-package com.dailytrip
+package com.dailytrip.users
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
